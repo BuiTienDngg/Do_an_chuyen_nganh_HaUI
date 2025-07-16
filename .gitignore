@@ -1,0 +1,43 @@
+# Backup và autosave files
+*.~schdoc
+*.~prjpcb
+*.~pcbdoc
+*.~*        # Các file autosave khác
+
+# File output khi build
+*.OutJob
+*.zip
+*.pdf
+*.html
+*.DRC
+*.ERC
+*.log
+*.csv
+
+# Thư mục tạm
+__Previews/
+History/
+Temp/
+
+# Các file cache
+*.Cache
+*.Db
+*.log
+*.ini
+*.bak
+*.tmp
+*.dmp
+
+# Các thư mục output
+Project Outputs for */
+Project Cache for */
+
+# Các file cấu hình cục bộ của người dùng
+*.PrjPCBStructure
+*.SchDocPreview
+*.SchDoc.Usage
+*.PcbDoc.Usage
+
+# Thư mục build tạm (nếu có)
+build/
+dist/
